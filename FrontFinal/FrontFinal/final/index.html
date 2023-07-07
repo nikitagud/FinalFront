@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main Page</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="header">
+    <a class="logo" href="index.html" >
+      <img src="./img/bk.png" alt="logo" class="logo-img">
+    </a>
+  
+    
+    <div class="btns-wrapper">
+      <p onclick="window.location.href='contact.html'">Contact Us</p>
+      <div class="auth-buttons">
+        <p onclick="window.location.href='login.html'">Login</p>
+        <p onclick="window.location.href='signup.html'">Sign Up</p>
+      </div>
+      <div class="dropdown">
+        <span>Language</span>
+        <div class="dropdown-content">
+          <a href="#">GE</a>
+          <a href="#">EN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h1>Welcome to the Main Page!</h1>
+    <div class="books">
+        <!-- Book frames -->
+        <div class="book-frame" onclick="window.location.href='details.html?bookId=1&imageUrl=./img/hari.jpg'">
+          <img src="./img/hari.jpg" alt="Book 1" style="width: 100%; height: 200px;">
+          <h2>Harry Potter</h2>
+        </div>
+
+        <div class="book-frame" onclick="window.location.href='details.html?bookId=2'">
+          <img src="./img/game.jpg" alt="Book 2" style="width: 100%; height: 200px;">
+          <h2>Game of thrones</h2>
+        </div>
+
+        <div class="book-frame" onclick="window.location.href='details.html?bookId=3'">
+          <img src="./img/tucker.jpg" alt="Book 3" style="width: 100%; height: 200px;">
+          <h2>About Tucker</h2>
+        </div>
+
+        <div class="book-frame" onclick="window.location.href='details.html?bookId=4'">
+          <img src="./img/jojo.jpg" alt="Book 4" style="width: 100%; height: 200px;">
+          <h2>Me before you</h2>
+        </div>
+    </div>
+   
+  </div>
+</body>
+</html>
